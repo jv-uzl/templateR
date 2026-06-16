@@ -14,7 +14,6 @@ library(rmarkdown)
 # load data
 load(file='importedData.Rdata')
 
-
 # generate html file
 render('report.Rmd', output_dir = 'report') 
 
